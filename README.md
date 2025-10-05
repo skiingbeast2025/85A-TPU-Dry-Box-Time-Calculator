@@ -14,8 +14,8 @@ Features a dark GUI, quick calculations, and built-in drying tips.
 ## 🚀 How to Use
 
 1. **Launch the app**
-   - Run `tpu_dry_calculator.py` (Python version), or  
-   - Double-click the `tpu_dry_calculator.exe` (Windows build)
+   - Run `tpu_dry_box_time_calculator.py` (Python version), or  
+   - Double-click the `tpu_dry__box_time_calculator.exe` (Windows build)
 
 2. **Enter print duration**
    - Input your print’s estimated time (in hours or minutes)
