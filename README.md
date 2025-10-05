@@ -9,13 +9,12 @@ Features a dark GUI, quick calculations, and built-in drying tips.
 - 🌡️ Uses a fixed drying temperature of **50°C**  
 - 🕶️ Modern dark-theme interface  
 - 💡 Includes helpful TPU drying recommendations  
-- 💻 Works on Windows (.exe) and Python (.py)
+- 💻 Works on Python (.py)
 
 ## 🚀 How to Use
 
 1. **Launch the app**
-   - Run `tpu_dry_box_time_calculator.py` (Python version), or  
-   - Double-click the `tpu_dry__box_time_calculator.exe` (Windows build)
+   - Run `tpu_dry_box_time_calculator.py` (Python version)
 
 2. **Enter print duration**
    - Input your print’s estimated time (in hours or minutes)
