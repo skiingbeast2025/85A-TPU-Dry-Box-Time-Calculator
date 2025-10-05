@@ -48,6 +48,7 @@ pyinstaller --onefile --noconsole tpu_dry_calculator.py
 - Recommended drying temperature: **50°C**  
 - Suggested initial drying time after opening a new spool: **6–7 hours**  
 - Keep filament sealed in a dryer box or airtight bag with silica gel between prints.
+- Recommended to only use 85A TPU while using dry times calculated by this app.
 
 ---
 
