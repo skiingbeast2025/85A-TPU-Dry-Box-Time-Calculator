@@ -32,7 +32,7 @@ Features a dark GUI, quick calculations, and built-in drying tips.
 If you’d like to modify or build the app yourself:
 
 ```bash
-git clone https://github.com/<your-username>/85A-TPU-Dry-Box-Time-Calculator.git
+git clone https://github.com/Skiingbeast2025/85A-TPU-Dry-Box-Time-Calculator.git
 cd 85A-TPU-Dry-Box-Time-Calculator
 python tpu_dry_calculator.py
 ```
