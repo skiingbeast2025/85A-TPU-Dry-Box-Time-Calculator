@@ -3,7 +3,7 @@
 A simple desktop app that helps 3D printing enthusiasts figure out how long to dry their 85A TPU filament before, during, and after printing.  
 Features a dark GUI, quick calculations, and built-in drying tips.
 
-![Screenshot](assets/screenshots/tpu_app_beta1.png)
+![Screenshot](assets/screenshots/Dry_Box_Time_Calculator_V1.1.png)
 
 - 🕐 Calculates drying times based on print duration  
 - 🌡️ Uses a fixed drying temperature of **50°C**  
@@ -14,10 +14,13 @@ Features a dark GUI, quick calculations, and built-in drying tips.
 ## 🚀 How to Use
 
 1. **Launch the app**
-   - Run `tpu_dry_box_time_calculator.py` (Python version)
+   - Run `Dry_Box_Time_Calculator_V1.1.pyw` (Python version)
+   - Run `Dry_Box_Time_Calculator_V1.1.pyw` (executable version)
 
 2. **Enter print duration**
    - Input your print’s estimated time (in hours or minutes)
+   - Input when your last print was
+   - Input how you stored your fillimant since last print
 
 3. **View recommended drying times**
    - The app instantly calculates how long to dry your filament before, during, and after printing.
@@ -42,7 +45,7 @@ pyinstaller --onefile --noconsole tpu_dry_calculator.py
 
 ---
 
-## 🧠 Notes
+## 🧠 TPU Notes
 
 - Recommended drying temperature: **50°C**  
 - Suggested initial drying time after opening a new spool: **6–7 hours**  
