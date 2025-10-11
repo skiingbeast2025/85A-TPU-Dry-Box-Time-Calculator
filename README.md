@@ -10,7 +10,7 @@ Features a dark GUI, quick calculations, and built-in drying tips.
 - 🕶️ Modern dark-theme interface  
 - 💡 Includes helpful TPU drying recommendations  
 - 💻 Works on Python (.py)
-- ‼️DON'T USE OLDER VERSIONS! THEY PROBALBLY ARE INACURATE!
+- ‼️DON'T USE OLDER VERSIONS! THEY ARE INACURATE!
 
 ## 🚀 How to Use
 
