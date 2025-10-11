@@ -16,7 +16,7 @@ Features a dark GUI, quick calculations, and built-in drying tips.
 
 1. **Launch the app**
    - Run `Dry_Box_Time_Calculator_V1.1.pyw` (Python version)
-   - Run `Dry_Box_Time_Calculator_V1.1.pyw` (executable version)
+   - Run `Dry_Box_Time_Calculator_V1.1.exe` (executable version)
 
 2. **Enter print duration**
    - Input your print’s estimated time (in hours or minutes)
