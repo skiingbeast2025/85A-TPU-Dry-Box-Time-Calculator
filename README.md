@@ -31,8 +31,9 @@ Features a modern dark/light GUI, quick calculations, and the app saves every ru
 ## 💻 Requirements
 
 - Python 3.10+ (tested on Windows 11)
-- tkinter (standard with Python on Windows/macOS; on some Linux distros install `python3-tk`)
+- tkinter (usually included with Python on Windows/macOS; on Debian/Ubuntu run `sudo apt install python3-tk`)
 - Optional: pyinstaller (if you want to build a single-file .exe)
+
 
 If you don't have tkinter on Linux:
 ```bash
