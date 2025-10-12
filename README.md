@@ -21,7 +21,7 @@ Features a modern dark/light GUI, quick calculations, and the app saves every ru
 2. **Enter print duration**
    - Input your print’s estimated time (in hours or minutes)
    - Input when your last print was
-   - Input how you stored your fillimant since last print
+   - Input how you stored your filament since last print
 
 3. **View recommended drying times**
    - The app instantly calculates how long to dry your filament before, during, and after printing.
