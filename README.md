@@ -15,7 +15,7 @@ Features a modern dark/light GUI, quick calculations, and the app saves every ru
 ## 🚀 How to Use
 
 1. **Launch the app**
-   - Run `Dry_Box_Time_Calculator_V1.1.pyw` (Python version)
+   - Run `Dry_Box_Time_Calculator_V1.1.pyw or Dry_Box_Time_Calculator_V1.1.pyw` (Python version)
    - Run `Dry_Box_Time_Calculator_V1.1.exe` (executable version)
 
 2. **Enter print duration**
@@ -28,20 +28,39 @@ Features a modern dark/light GUI, quick calculations, and the app saves every ru
 
 ---
 
-## 💾 Building from Source
+## 💻 Requirements
 
-If you’d like to modify or build the app yourself:
+- Python 3.10+ (tested on Windows 11)
+- tkinter (standard with Python on Windows/macOS; on some Linux distros install `python3-tk`)
+- Optional: pyinstaller (if you want to build a single-file .exe)
+
+If you don't have tkinter on Linux:
+```bash
+# Debian/Ubuntu
+
+If you're on Debian/Ubuntu, make sure `tkinter` is installed:
 
 ```bash
-git clone https://github.com/Skiingbeast2025/85A-TPU-Dry-Box-Time-Calculator.git
+sudo apt update
+sudo apt install python3-tk
+```
+## 💾 Building from Source
+If you’d like to modify or run the app yourself:
+```
+bash
+git clone https://github.com/skiingbeast2025/85A-TPU-Dry-Box-Time-Calculator.git
 cd 85A-TPU-Dry-Box-Time-Calculator
 python tpu_dry_calculator.py
 ```
+## ⚡ Running the Pre-Built Executable
+If you prefer the single-file .exe version (Windows):
+1. Download the .exe from the latest release.
+2. Double-click to run — no Python installation needed.
 
 You can package it into an .exe with:
 
 ```bash
-pyinstaller --onefile --noconsole tpu_dry_calculator.py
+pyinstaller --onefile --noconsole Dry_Box_Time_Calculator_V1.1.pyw (or Dry_Box_Time_Calculator_V1.1.py)
 ```
 
 ---
