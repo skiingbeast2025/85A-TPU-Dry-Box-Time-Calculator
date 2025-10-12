@@ -50,7 +50,7 @@ If you’d like to modify or run the app yourself:
 bash
 git clone https://github.com/skiingbeast2025/85A-TPU-Dry-Box-Time-Calculator.git
 cd 85A-TPU-Dry-Box-Time-Calculator
-python tpu_dry_calculator.py
+python Dry_Box_Time_Calculator_V1.1.pyw
 ```
 ## 📦 Packaging (Windows / macOS / Linux)
 
@@ -77,7 +77,7 @@ Build a one-file .exe (no console window):
 ```
 pyinstaller --onefile --noconsole --icon=3d-printer-icon.ico \
   --add-data "assets;assets" \
-  tpu_dry_calculator.py
+  Dry_Box_Time_Calculator_V1.1.pyw
 ```
 --noconsole prevents the console window from appearing.
 
@@ -100,7 +100,7 @@ Minimal setup.py example:
 # setup.py
 from setuptools import setup
 
-APP = ['tpu_dry_calculator.py']
+APP = ['Dry_Box_Time_Calculator_V1.1.pyw']
 OPTIONS = {'argv_emulation': True, 'iconfile': '3d-printer-icon.icns'}
 
 setup(
@@ -119,7 +119,7 @@ Option B — PyInstaller (works on mac when built there)
 ```
 pyinstaller --onefile --windowed --icon=3d-printer-icon.icns \
   --add-data "assets:assets" \
-  tpu_dry_calculator.py
+  Dry_Box_Time_Calculator_V1.1.pyw
 ```
 On macOS/Linux the --add-data separator is :.
 
@@ -134,7 +134,7 @@ Build:
 ```
 pyinstaller --onefile --windowed --icon=3d-printer-icon.png \
   --add-data "assets:assets" \
-  tpu_dry_calculator.py
+  Dry_Box_Time_Calculator_V1.1.pyw
 ```
 The --add-data separator on Linux/macOS is :.
 
