@@ -1,0 +1,26 @@
+--- README_old.md
++++ README_new.md
+@@ -45,6 +45,12 @@
+ ## 💻 Requirements
+
+ - Python 3.10+ (tested on Windows 11)
+ - tkinter (usually included with Python on Windows/macOS; on Debian/Ubuntu run `sudo apt install python3-tk`)
+ - Optional: pyinstaller (if you want to build a single-file .exe)
+
++If you're on Debian/Ubuntu, make sure `tkinter` is installed:
++```bash
++sudo apt update
++sudo apt install python3-tk
++```
++
+ ## 💾 Building From Source
+ If you’d like to modify or run the app yourself:
+ ```bash
+@@ -80,7 +86,7 @@
+ ### 🖼 Screenshot
+ 
+ ![Dry Box Time Calculator Screenshot](assets/screenshots/Dry_Box_Time_Calculator_V1.0.png)
+-
++
+ ## ⚖️ License
+ Licensed under the Apache License 2.0. See the LICENSE file for details.
