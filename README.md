@@ -3,7 +3,7 @@
 A simple desktop app that helps 3D printing enthusiasts calculate pre-print, during-print, and post-print drying times for 85A TPU filament.  
 Features a modern dark/light GUI, quick calculations, and the app saves every run to a local `history.json` and shows a scrollable in-app history so you can review past print durations and previous recommended pre/during/post drying times.
 
-![Screenshot](assets/screenshots/Dry_Box_Time_Calculator_V1.1.png)
+![Screenshot](assets/screenshots/Dry_Box_Time_Calculator_V1.0.png)
 
 - 🕐 Calculates drying times based on print duration  
 - 🌡️ Uses a fixed drying temperature of **50°C**  
