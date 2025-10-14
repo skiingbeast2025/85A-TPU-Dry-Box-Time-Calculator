@@ -261,4 +261,4 @@ pyinstaller --onefile --noconsole 85A_TPU_Dry_Box_Time_Calculator_V1.0.pyw
 ## 📝 License
 
 This project is licensed under the **Apache License 2.0**.  
-See the [LICENSE](LICENSE) file for details.
+See the [LICENSE](LICENSE) file for details. 
