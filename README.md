@@ -125,7 +125,6 @@ Minimal `setup.py`:
 from setuptools import setup
 
 APP = ['85A_TPU_Dry_Box_Time_Calculator_V1.0.pyw']
-OPTIONS = {'argv_emulation': True, 'iconfile': '3d-printer-icon.icns'}
 
 setup(
     app=APP,
